@@ -47,6 +47,7 @@ nav {
 }
 #guess_input {
 	text-align: left;
+	width: 8em;
 }
 #last_info {
         width: 100%;
