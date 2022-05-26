@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+body {
+	background-color: #F5F5F5;
+}
+nav {
+	background-color: #EEEEEE;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 10px;
+	width: calc(100% - 20px);
+}
+#title_link {
+	color: black;
+	text-decoration: none;
+}
+#nav_info {
+	height: 25px;
+	width: 25px;
+}
+#basic_instruction {
+	width: calc(100% - 6px);
+	padding: 3px;
+}
+#color_block {
+        width: 250px;
+        height: 250px;
+        border: 1px solid black;
+}
+.flex {
+        display: flex;
+}
+#game {
+	margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+#guess_form {
+        margin: 10px;
+}
+#guess_input {
+	text-align: left;
+}
+#last_info {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+	align-items: center;
+}
+#last_info div {
+        margin: 10px;
+}
+
+
+#info_page_content {
+	margin: auto;
+	margin-top: 50px;
+	min-width: 300px;
+	width: 80%;
+}
+#info_page_content p {
+	text-align: left;
+}

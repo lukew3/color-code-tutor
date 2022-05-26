@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Code Tutor</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Train your ability to recognise colors and their matching digital color codes">
+	<meta name="keywords" content="color, design, train">
+	<meta name="author" content="Luke Weiler">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<a id="title_link" href='./index.html'><h1>Color Code Tutor</h1></a>
+		<a href='./info.html'><img src="img/info.svg" id="nav_info"></a>
+	</nav>
+	<p id="basic_instruction">Guess the HTML color code value of the given color</p>
+	<div id="game">
+		<div id="color_block"></div>
+		<form id="guess_form">
+			<input type="text" id="guess_input">
+			<input type="submit" value="Submit">
+		</form>
+		<div id="last_info">
+			<div>
+				<div class="flex">
+					<p>Last Guess: #</p>
+					<p id="last_guess_text">000000</p>
+				</div>
+				<div class="flex">
+					<p>Last Actual: #</p>
+					<p id="last_actual_text">000000</p>
+				</div>
+			</div>
+			<div class="flex">
+				<p>Score: </p>
+				<p id="last_score">±0</p>
+			</div>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
