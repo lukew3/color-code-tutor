@@ -38,7 +38,9 @@ $('guess_form').addEventListener('submit', (e) => {
 		guess_input.value = '000000';
 	}
 	last_guess_text.textContent = guess_input.value.toUpperCase();
+	last_guess_splotch.style.backgroundColor = '#' + guess_input.value.toUpperCase();
 	last_actual_text.textContent = currentColor;
+	last_actual_splotch.style.backgroundColor = '#' + currentColor;
 	last_score_text.textContent = calcHexScore(guess_input.value, currentColor);
 	guess_input.value = '';
 	currentColor = genColorCode();
