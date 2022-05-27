@@ -23,9 +23,13 @@ nav {
 	height: 25px;
 	width: 25px;
 }
-#basic_instruction {
-	width: calc(100% - 6px);
-	padding: 3px;
+#first_time_banner {
+	width: calc(100% - 20px);
+	padding: 5px;
+	margin: auto;
+	background-color: lightgrey;
+	border-radius: 3px;
+	border: 1px solid #555;
 }
 #color_block {
         width: 250px;

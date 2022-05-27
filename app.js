@@ -37,6 +37,9 @@ let correctAnswers = 0;
 let totalAnswers = 0;
 let scoreSum = 0;
 
+if (document.cookie.indexOf("visited") >= 0) $('first_time_banner').style.display = 'none';
+else document.cookie = "visited";
+
 let currentColor = genColorCode();
 let lastColor = '000000';
 color_block.style.backgroundColor = '#' + currentColor;
