@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Color Code Tutor</title>
+<head> <title>Color Code Tutor</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Train your ability to recognise colors and their matching digital color codes">
 	<meta name="keywords" content="color, design, train">
@@ -19,6 +18,18 @@
 	</nav>
 	<p id="basic_instruction">Guess the HTML color code value of the given color</p>
 	<div id="game">
+		<div style="display: flex;">
+			<p>Difficulty:</p>
+			<select id="diff_select">
+				<option value="1">Impossible (&le;1)</option>
+				<option value="10">Extreme (&le;10)</option>
+				<option value="50">Hard (&le;50)</option>
+				<option value="100">Medium (&le;100)</option>
+				<option value="200" selected>Easy (&le;200)</option>
+				<option value="300">Easier (&le;300)</option>
+				<option value="500">Easiest (&le;500)</option>
+			</select>
+		</div>
 		<div id="color_block"></div>
 		<form id="guess_form">
 			<label>#</label><input type="text" id="guess_input">
@@ -41,6 +52,14 @@
 				<p>Score: </p>
 				<p id="last_score">±0</p>
 			</div>
+		</div>
+		<div class="flex">
+			<p>Accuracy: </p>
+			<p id="accuracy_text">0/0=100%</p>
+		</div>
+		<div class="flex">
+			<p>Average Score: </p>
+			<p id="avg_score_text">0</p>
 		</div>
 	</div>
 	<script src="app.js"></script>
