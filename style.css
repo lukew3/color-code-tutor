@@ -73,8 +73,8 @@ nav {
 	align-items: center;
 }
 .splotch {
-	height: 1em;
-	width: 1em;
+	height: 1.25em;
+	width: 1.25em;
 	border: 1px solid black;
 	margin-left: 5px;
 }
