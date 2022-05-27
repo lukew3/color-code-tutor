@@ -30,6 +30,7 @@ nav {
 	background-color: lightgrey;
 	border-radius: 3px;
 	border: 1px solid #555;
+	display: none;
 }
 #color_block {
         width: 250px;
